@@ -3,6 +3,10 @@ html, body {
   font-family: monospace;
 }
 
+.float{
+	position:fixed;
+}
+
 .container {
   width: 100%;
   max-width: 760px;
