@@ -1,15 +1,16 @@
+var name = "Thakur Malkhan Singh";
 var data = [
   {
-    count: 12,
+    name= "Thakur Malkhan Singh",
     date: "Wed Sep 03 1889 20:43:05 GMT-0400 (EDT)"
     
   },
   {
-    count: 1,
+    name= "Sidhyavati",
     date: "Thu Sep 04 1901 01:50:51 GMT-0400 (EDT)"
   },
   {
-    count: 5,
+    name= "Who",
     date: "Sat Sep 13 1920 05:45:04 GMT-0400 (EDT)"
   },
   {
@@ -177,8 +178,11 @@ circles.enter().append('circle')
     return r(d.count);
   })
   .on('mouseover', function ( d ) {
-    var format = d3.time.format('%m/%d/%y'),
-        message = format(new Date(d.date)) + '<br/>' + d.count + ((d.count === 1) ? 'birth' : ' death'),
+    var format = d3.time.format('%d/%m/%y'),
+/*        message = format(new Date(d.date)) + '<br/>' + d.count + ((d.count === 1) ? 'birth' : ' death'),*/
+        
+        message = name + '<br/>' + ((d.count === 1) ? 'birth' : ' death'),
+
         svgTop = document.getElementById('svg').offsetTop,//33
         svgLeft = document.getElementById('svg').offsetLeft,//33
         circle = d3.select(this),
