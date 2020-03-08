@@ -3,6 +3,13 @@ html, body {
   font-family: monospace;
 }
 
+a{
+  text-decoration: none; 
+  padding-left: 10px;
+    padding-top: 10px;
+
+}
+
 .container {
   width: 100%;
   max-width: 760px;
