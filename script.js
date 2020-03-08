@@ -1,68 +1,68 @@
 var data = [
   {
     count: 12,
-    date: "Wed Sep 03 2014 20:43:05 GMT-0400 (EDT)"
+    date: "Wed Sep 03 1889 20:43:05 GMT-0400 (EDT)"
     
   },
   {
     count: 1,
-    date: "Thu Sep 04 2014 01:50:51 GMT-0400 (EDT)"
+    date: "Thu Sep 04 1901 01:50:51 GMT-0400 (EDT)"
   },
   {
     count: 5,
-    date: "Sat Sep 13 2014 05:45:04 GMT-0400 (EDT)"
+    date: "Sat Sep 13 1920 05:45:04 GMT-0400 (EDT)"
   },
   {
     count: 17,
-    date: "Mon Sep 15 2014 11:26:33 GMT-0400 (EDT)"
+    date: "Mon Sep 15 1923 11:26:33 GMT-0400 (EDT)"
   },
   {
     count: 8,
-    date: "Tue Sep 16 2014 05:40:35 GMT-0400 (EDT)"
+    date: "Tue Sep 16 1926 05:40:35 GMT-0400 (EDT)"
   },
   {
     count: 3,
-    date: "Wed Sep 17 2014 23:38:53 GMT-0400 (EDT)"
+    date: "Wed Sep 17 1929 23:38:53 GMT-0400 (EDT)"
   },
   {
     count: 2,
-    date: "Sun Sep 21 2014 16:42:47 GMT-0400 (EDT)"
+    date: "Sun Sep 21 1938 16:42:47 GMT-0400 (EDT)"
   },
   {
     count: 19,
-    date: "Thu Sep 25 2014 16:57:42 GMT-0400 (EDT)"
+    date: "Thu Sep 25 1916 16:57:42 GMT-0400 (EDT)"
   },
   {
     count: 2,
-    date: "Fri Sep 26 2014 21:56:27 GMT-0400 (EDT)"
+    date: "Fri Sep 26 1954 21:56:27 GMT-0400 (EDT)"
   },
   {
     count: 1,
-    date: "Sat Oct 04 2014 01:52:43 GMT-0400 (EDT)"
+    date: "Sat Oct 04 1956 01:52:43 GMT-0400 (EDT)"
   },
   {
     count: 1,
-    date: "Sat Oct 04 2014 15:57:51 GMT-0400 (EDT)"
+    date: "Sat Oct 04 1958 15:57:51 GMT-0400 (EDT)"
   },
   {
     count: 5,
-    date: "Sat Oct 04 2014 22:13:53 GMT-0400 (EDT)"
+    date: "Sat Oct 04 1960 22:13:53 GMT-0400 (EDT)"
   },
   {
     count: 1,
-    date: "Sat Oct 25 2014 17:25:35 GMT-0400 (EDT)"
+    date: "Sat Oct 25 1926 17:25:35 GMT-0400 (EDT)"
   },
   {
     count: 15,
-    date: "Wed Nov 05 2014 00:16:09 GMT-0500 (EST)"
+    date: "Wed Nov 05 1964 00:16:09 GMT-0500 (EST)"
   },
   {
     count: 1,
-    date: "Wed Nov 05 2014 22:57:16 GMT-0500 (EST)"
+    date: "Wed Nov 05 1966 22:57:16 GMT-0500 (EST)"
   },
   {
     count: 2,
-    date: "Fri Nov 07 2014 21:48:50 GMT-0500 (EST)"
+    date: "Fri Nov 07 1969 21:48:50 GMT-0500 (EST)"
   }
 ];
 
@@ -178,7 +178,7 @@ circles.enter().append('circle')
   })
   .on('mouseover', function ( d ) {
     var format = d3.time.format('%m/%d/%y'),
-        message = format(new Date(d.date)) + '<br/>' + d.count + ((d.count === 1) ? ' change' : ' changes'),
+        message = format(new Date(d.date)) + '<br/>' + d.count + ((d.count === 1) ? 'birth' : ' death'),
         svgTop = document.getElementById('svg').offsetTop,//33
         svgLeft = document.getElementById('svg').offsetLeft,//33
         circle = d3.select(this),
