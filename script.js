@@ -6,27 +6,27 @@ var data = [
     
   },
   {
-    name= "Sidhyavati",
+    name = "Sidhyavati",
     date: "Thu Sep 04 1901 01:50:51 GMT-0400 (EDT)"
   },
   {
-    name= "Who",
+    name = "Sarla",
     date: "Sat Sep 13 1920 05:45:04 GMT-0400 (EDT)"
   },
   {
-    count: 17,
+    name = "Sushila",
     date: "Mon Sep 15 1923 11:26:33 GMT-0400 (EDT)"
   },
   {
-    count: 8,
+    name = "Virendra",
     date: "Tue Sep 16 1926 05:40:35 GMT-0400 (EDT)"
   },
   {
-    count: 3,
+    name = "Urmila",
     date: "Wed Sep 17 1929 23:38:53 GMT-0400 (EDT)"
   },
   {
-    count: 2,
+    name = "Nripendra",
     date: "Sun Sep 21 1938 16:42:47 GMT-0400 (EDT)"
   },
   {
@@ -181,7 +181,7 @@ circles.enter().append('circle')
     var format = d3.time.format('%d/%m/%y'),
 /*        message = format(new Date(d.date)) + '<br/>' + d.count + ((d.count === 1) ? 'birth' : ' death'),*/
         
-        message = name + '<br/>' + ((d.count === 1) ? 'birth' : ' death'),
+        message = name + '<br/>' + ((d.count === 1) ? 'death' : ' birth'),
 
         svgTop = document.getElementById('svg').offsetTop,//33
         svgLeft = document.getElementById('svg').offsetLeft,//33
