@@ -127,7 +127,7 @@ html, body {
   cursor: pointer;
 }
 
-/* The actual popup (appears on top) */
+/* The actual popup (appears on ) */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
@@ -138,7 +138,7 @@ html, body {
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  top: 25%;
   left: 50%;
   margin-left: -80px;
 }
