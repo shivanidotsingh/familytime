@@ -2,7 +2,7 @@ body .description {
   font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   margin: 0;
-  font-size:12px;
+  font-size:16px;
   /*font-family: monospace;*/
 }
 
@@ -38,7 +38,7 @@ body .description {
 .year {
   font-style: normal;
   font-weight: bold;
-  font-size: 18px; /*13pt*/
+  font-size: 26px;
   font-family: Helvetica Neue, Helvetica, sans-serif;
   margin-bottom: .25em;
 }
@@ -179,7 +179,7 @@ button.button {
   border-left:none;
   border-bottom:#02274a 1px solid;
   padding:0 0 3px 0;
-  font-size:12px;
+  font-size:16px;
 }
 
 button.button:hover {
