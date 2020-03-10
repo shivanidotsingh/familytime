@@ -122,7 +122,7 @@ html, body {
 
 /* Popup container */
 .popup {
-  position: relative;
+  position: absolute;
   display: inline-block;
   cursor: pointer;
 }
@@ -133,14 +133,16 @@ html, body {
   width: 400px;
   background-color: #F5EFE0;
   color: #000;
-  text-align: left;	
-  border-padding: 100px 100px, 100px, 100px;
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  margin-left: -80px;
+  text-align: left;
+	
+  margin: 0 auto;
+  top: 25%;
+	
+  border-width: 50px;
+  border-color: #F5EFE0;
 
+  position: relative;
+  z-index: 1;
   border-color: #ff0000 transparent transparent transparent;
 }
 
