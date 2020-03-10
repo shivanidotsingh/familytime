@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+  
+  <script src="//code.jquery.com/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
   <meta charset="UTF-8">
   <title>The Singh Family Timeline</title>
   <link rel="stylesheet" href="style.css">
@@ -15,7 +20,7 @@
     <div class='timeline-item' data-year='1889'>
       <span class='year'><font color="red">1889</font></span>
       <p class='description' align="right"><font color="red">First Generation Beings.</font><br><br>
-      <button class="button" data-modal="#modalOne"> Malhkhan Singh Chauhan</button> is born.</p>
+      <button class="button" data-toggle="modal" data-target="#modal-1" data-modal="#modalOne"> Malhkhan Singh Chauhan</button> is born.</p>
 
       <!-- The Modal -->
       
@@ -23,11 +28,12 @@
   <div class="modal-content">
 
       <a class="close">&times;</a>
-    <img src="https://i.pinimg.com/564x/cf/27/8e/cf278e022baab939499ced8d4c46561c.jpg" width="250px">
-     <p class='description' align="center"> Birth place: Aligarh &nbsp; &nbsp; &nbsp; <a href=#modalTwo> Wife ⟶ </a> &nbsp; &nbsp; &nbsp; <a href=#> Daughter </a> &nbsp; &nbsp; &nbsp; <a href=#> Son </a>
-      </p>
     
-    </div>
+  <img style="vertical-align:top" src="https://i.pinimg.com/564x/cf/27/8e/cf278e022baab939499ced8d4c46561c.jpg" width="250px">
+  <span style=""><p class='description' align="center"> Birth place: Aligarh &nbsp; &nbsp; &nbsp; <a href=#modalTwo data-toggle="modal" data-dismiss="modal"> Wife ⟶ </a> &nbsp; &nbsp; &nbsp; <a href=#> Daughter </a> &nbsp; &nbsp; &nbsp; <a href=#> Son </a></p></span>
+
+    
+  </div>
   </div>
       
 
@@ -48,7 +54,7 @@
 
       <a class="close">&times;</a>
   <img src="https://i.pinimg.com/564x/49/1b/e6/491be62e55811fdd9528b1ced4aef347.jpg" width="250px">
-      <p class='description' align="center"> Birth place: Aligarh &nbsp; &nbsp; &nbsp; <a href=#> Husband ⟶ </a> &nbsp; &nbsp; &nbsp; <a href=#> Daughter </a> &nbsp; &nbsp; &nbsp; <a href=#> Son </a>
+      <p class='description' align="center"> Birth place: Aligarh &nbsp; &nbsp; &nbsp; <a href=#modalOne data-toggle="modal" data-dismiss="modal"> Husband ⟶ </a> &nbsp; &nbsp; &nbsp; <a href=#> Daughter </a> &nbsp; &nbsp; &nbsp; <a href=#> Son </a>
       </p>
     
     </div>
