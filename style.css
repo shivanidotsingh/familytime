@@ -122,45 +122,29 @@ html, body {
 
 /* Popup container */
 .popup {
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
 }
 
 /* The actual popup (appears on ) */
 .popup .popuptext {
   visibility: hidden;
-  width: 400px;
-  background-color: #F5EFE0;
-  color: #000;
-  text-align: left;
-	
-  margin: 0 auto;
-  top: 25%;
-	
-  border-width: 50px;
-  border-color: #F5EFE0;
-
-  position: relative;
-  z-index: 1;
-  border-color: #ff0000 transparent transparent transparent;
+  max-height: 30%;
+  overflow: auto;
+ 
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
 }
 
-/* Popup arrow 
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: inset;
-  border-color: #ff0000 transparent transparent transparent;
-}*/
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
+
 }
