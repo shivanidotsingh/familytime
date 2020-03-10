@@ -122,6 +122,8 @@ html, body {
 
 /* Popup container */
 .popup {
+	    text-align: right;
+
 }
 
 /* The actual popup (appears on ) */
