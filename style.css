@@ -121,11 +121,13 @@ html, body {
 }
 
 #myBtn {
-  background-color: #fff; /* Green */
+  background-color: #fff;
   border: none;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  cursor:context-menu;
+
 }
 
 /* The Modal (background) */
