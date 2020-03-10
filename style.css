@@ -130,8 +130,8 @@ html, body {
 /* The actual popup (appears on ) */
 .popup .popuptext {
   visibility: hidden;
-  width: 60px;
-  background-color: #fff;
+  width: 160px;
+  background-color: #CDCDCD;
   color: #000;
   text-align: left;
   /*border-radius: 6px;*/
@@ -143,9 +143,6 @@ html, body {
   left: 125%;
   margin-left: -80px;
 
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: inset;
   border-color: #ff0000 transparent transparent transparent;
 }
 
