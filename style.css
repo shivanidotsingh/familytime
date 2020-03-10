@@ -131,13 +131,13 @@ html, body {
 .popup .popuptext {
   visibility: hidden;
   width: 400px;
-  background-color: #CDCDCD;
+  background-color: #F5EFE0;
   color: #000;
   text-align: left;
 	img-align:center;
   /*border-radius: 6px;*/
 	
-  padding: 8px 8px, 8px, 8px;
+  padding: 10px 10px, 10px, 10px;
   position: absolute;
   z-index: 1;
   top: 50%;
